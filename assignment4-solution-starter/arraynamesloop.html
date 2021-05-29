@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loop over an array</title>
+</head>
+<body>
+    <h1>this is to loop over an array </h1>
+    <h3>if name starts with j we have to say good bye and if with any other letter it will hello</h3>
+    
+    <script>
+
+        console.log("This is loop over an array");
+        let names =["shashank","jacky","Tiger","barkha","anubhav","jamuna lal","krishna","jolly","seema"];
+        names.forEach(element => {
+            if(element.startsWith('j')){
+                console.log("goodbye", element);
+            }
+            else
+            console.log("hello",element);
+    
+            
+        });
+
+    </script>
+</body>
+</html>
